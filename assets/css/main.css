@@ -478,10 +478,11 @@ body {padding: 0px 0px 0px 0px;
   }
   .smalltitle { font-size: 18px;}
   .title {font-size: 30px;}
-  .topnav{ font-size: 18px;}
-  .mainsection{ margin-left: 4%;
-                margin-right: 4%;
-                width: 92%}
+  .topnav{ font-size: 12px;}
+  .mainsection{ margin-left: 6%;
+                margin-right: 6%;
+                width: 88%;
+                font-size: 16px;}
 }
 
 @media all and (min-width: 900px) {
