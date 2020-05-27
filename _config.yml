@@ -1,0 +1,24 @@
+title: Ted Mackereth
+#email: your-email@example.com # Don't show my email address
+description: >
+  Post-doctoral Fellow in Astrophysics, University of Toronto
+baseurl: "" # Don't have any base path on my url. ie. /blog
+url: "https://jmackereth.github.io"
+google_analytics: UA-000000000-0
+timezone: EST
+show_excerpts: true # Show excerpts of posts on the home page
+permalink: /:categories/:title # Don't show the date of the post in the URL
+
+# Social
+twitter_username: ted_mackereth
+github_username: jmackereth
+
+
+# These are default variables for my pages
+# Any file in the `_posts` directory gets a default layout of `post`,
+# so I don't have to specify it manually
+defaults:
+    - scope:
+        path: _posts
+      values:
+        layout: post

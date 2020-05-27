@@ -1,0 +1,78 @@
+---
+layout: default
+nav: small
+title: CV
+---
+<h2>J. Ted Mackereth</h2>
+<h4> Postdoctoral Fellow, University of Birmingham </h4>
+
+<h4> RESEARCH POSITIONS </h4>
+<ul>
+<li> <b> CITA Fellow</b> | <i> University of Toronto, Canada </i> | 2020 - Present </li>
+<li> <b> Dunlap Institute Fellow</b> | <i> University of Toronto, Canada </i> | 2020 - Present </li>
+<li> <b> Banting Fellow</b> | <i> University of Toronto, Canada </i> | 2020 - Present </li>
+<li> <b> Galactic Archaeology Research Fellow</b> | <i> University of Birmingham, UK </i> | 2019 - 2020 </li>
+</ul>
+
+<h4> EDUCATION </h4>
+<ul>
+<li> <b> Postgraduate Research Student</b> | <i> Liverpool John Moores University, UK </i> | 2015 - 2019 </li>
+<li> <b> MPhys, Astrophysics </b> | <i> University of Liverpool, UK </i> | 2011 - 2015 </li>
+</ul>
+
+<h4> GRANTS, AWARDS & HONOURS </h4>
+<ul>
+  <li> <b>Banting Postdoctoral Fellowship</b>, NSERC, 2020 </li>
+  <li> <b> LJMU Faculty of Engineering Dean's Best Thesis Prize </b>, Liverpool John Moores Univesity, 2019</li>
+  <li> <b>Dunlap Institute Visiting Member</b>, University of Toronto, Canada, 2017 </li>
+  <li> <b>SDSS Early Career Travel Fund Grant</b>, Sloan Digital Sky Survey, 2018 </li>
+  <li> <b>RAS Personal Grant</b>, <i>The kinematics and dynamics of mono-abundance populations in the Milky Way using Gaia and APOGEE</i>, Royal Astronomical Society, 2017 </li>
+</ul>
+
+<h4> MEDIA </h4>
+<ul>
+  <li> Featured in Japanese National Broadcaster NHK's <a href="https://www.nhk.jp/p/cosmic/ts/KWRKNGPXZV/"> Cosmic Front NEXT </a> documentary on the '<i>Miracle Milky Way</i>'</li>
+  <li> Consulted for scientific input on the upcoming BBC/PBS Nova series '<i>The Universe</i>', follow up to the Brian Cox series <a href="https://www.bbc.co.uk/programmes/p07922lr">'<i>The Planets</i>'</a></li>
+  <li> Quoted in a press release, picked up by a number of <a href="https://www.nature.com/articles/s41550-019-0975-9/metrics">high profile news outlets</a>, about the age-dating of the naked eye star <i>Nu Indi</i> </li>
+<ul>
+<h4> SELECTED TALKS </h4>
+{% for talk in site.data.talks %}
+<ul>
+<li> <i>{{talk.title}}</i> {{talk.type}}, {{talk.event}}, {{talk.location}} </li>
+</ul>
+{% endfor %}
+
+<h4> PUBLICATIONS </h4>
+<h3> as first author: </h3>
+<ul>
+{% assign papers_sorted = site.data.pubs | sort: "pubdate" | reverse %}
+{% for paper in papers_sorted %}
+   {% if paper.authors[0] contains "Mackereth" and paper.doctype == "article" %}
+   <li><i><a href="{{paper.url}}"> {{ paper.title }} </a> </i><b> {{ paper.authors[0] }}; </b> {{ paper.authors | slice:1,3 | join:"; "}}{% if paper.authors.size > 3 %} et al. {% endif %},
+   {{paper.year}}, {{ paper.pub }}, {{paper.volume}}, {{paper.page}} (<a href="https://arxiv.org/abs/{{paper.arxiv}}">arXiv: {{paper.arxiv}}</a>) <i> cited: {{paper.citations}} </i></li>
+   {% endif %}
+{% endfor %}
+</ul>
+
+<h3> as co-author: </h3>
+<ul>
+{% for paper in papers_sorted %}
+   {% if paper.authors[0] contains "Mackereth"%}
+   {% elsif paper.doctype =="article" %}
+   {% assign firstthree = paper.authors | slice:0,2 | join %}
+   <li> <i><a href="{{paper.url}}"> {{ paper.title }} </a> </i> {{ paper.authors | slice:0,3 | join:"; "}}{% if paper.authors.size > 3 %} et al. {% endif %}{% unless firstthree contains "Mackereth" %} (incl. JTM) {% endunless %},
+   {{paper.year}}, {{ paper.pub }}, {{paper.volume}}, {{paper.page}} (<a href="https://arxiv.org/abs/{{paper.arxiv}}">arXiv: {{paper.arxiv}}</a>) <i> cited: {{paper.citations}} </i></li>
+   {% endif %}
+{% endfor %}
+</ul>
+
+<h3> conference proceedings: </h3>
+<ul>
+{% for paper in papers_sorted %}
+   {% if paper.doctype =="inproceedings" %}
+   {% assign firstthree = paper.authors | slice:0,2 | join %}
+   <li> <i><a href="{{paper.url}}"> {{ paper.title }} </a> </i> {{ paper.authors | slice:0,3 | join:"; "}}{% if paper.authors.size > 3 %} et al. {% endif %}{% unless firstthree contains "Mackereth" %} (incl. JTM) {% endunless %},
+   {{paper.year}}, {{ paper.pub }}, {{paper.volume}}, {{paper.page}} (<a href="https://arxiv.org/abs/{{paper.arxiv}}">arXiv: {{paper.arxiv}}</a>) <i> cited: {{paper.citations}} </i></li>
+   {% endif %}
+{% endfor %}
+</ul>

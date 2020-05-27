@@ -1,0 +1,55 @@
+[ {
+      "title": "The Milky Way as a Galaxy: Contextualising the Milky Way with APOGEE and MaNGA",
+      "type": "Invited Plenary Talk (Remote)",
+      "event": "SDSS-IV Collaboration Meeting 2020",
+      "location": "New York City, NY, USA"
+  },
+  {
+      "title": "Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way",
+      "type": "Invited Seminar (Remote)",
+      "event": "",
+      "location": "University of Nottingham, UK"
+  },
+    {
+        "title": "Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way",
+        "type": "Contributed Talk",
+        "event": "The Gaia Treasure Hunt",
+        "location": "MW-GAIA COST action workshop, Cambridge, UK"
+    },
+    {
+        "title": "Constraints on the assembly of the Milky Way from APOGEE, Gaia and the EAGLE simulations",
+        "type": "Invited Talk",
+        "event": "KITP Conference: ‘In the balance: stasis and disequilibrium in the Milky Way’",
+        "location": "Santa Barbara, CA, USA"
+    },
+    {
+        "title": "Constraining the formation of the Milky Way disk with APOGEE, Gaia and the EAGLE simulations",
+        "type": "Invited Plenary Talk",
+        "event": "SDSS-IV Collaboration Meeting 2018",
+        "location": "Seoul, South Korea"
+    },
+    {
+        "title": "The origin ofdiverse α-element enrichment in galaxy discs",
+        "type": "Invited Lunch Talk",
+        "event": "",
+        "location": "Institute for Computational Cosmology, Durham, UK"
+    },
+    {
+        "title": "Constraints on the origin of the high-[α/Fe] disc with APOGEE-Gaia",
+        "type": "Contributed Talk",
+        "event": "Gaia: The billion-star galaxy census: at the threshold of Gaia data release 2",
+        "location": "EWASS 2018, Liverpool, UK"
+    },
+    {
+        "title": "Contextualising [α/Fe] bimodality in the EAGLE simulations",
+        "type": "Contributed Talk",
+        "event": "Hello, goodbye: understanding the duality of the Milky Way",
+        "location": "EWASS 2018, Liverpool, UK"
+    },
+    {
+        "title": "Galactic Archaeology with mono-age stellar populations",
+        "type": "Invited Seminar",
+        "event": "",
+        "location": "University of Birmingham, UK"
+    }
+]
