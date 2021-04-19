@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+    body  {
+        position: relative;
+   }
+    img.overimg {
+        position: absolute;
+        display: none;
+     }
+</style>
+
+<script type="text/javascript">
+function placeImage(disp, planet, x, y)
+{
+    var ele=document.getElementById(planet);
+    var base=document.getElementById('base');
+    var base_ab=document.getElementById('base-ab');
+    if (disp) {
+        ele.style.top = y + "px";
+        ele.style.left = x + "px";
+        ele.style.display='block';
+        base.style.display='none';
+        base_ab.style.display='none';
+    } else {
+        ele.style.display='none';
+        base.style.display='block';
+        base_ab.style.display='block';
+    }
+}
+</script>
+
+<body>
+</head>
+
+<img class="overimg" id="halo_on" src="img/orbits_halo_on.png" width="500px" usemap="#image-map"/>
+<img class="overimg" id="disk_on" src="img/orbits_disk_on.png" width="500px" usemap="#image-map"/>
+
+<img class="overimg" id="halo_ab_on" src="img/abundances_halo_on.png" width="300px" usemap="#image-map"/>
+<img class="overimg" id="disk_ab_on" src="img/abundances_disk_on.png" width="300px" usemap="#image-map"/>
+
+<img id="galback", src="img/draftgalaxy_back.png" width="500px" STYLE="position:absolute; LEFT:0px; TOP:0px; z-index:-10;"/>
+
+<img id="base" src="img/orbits_all_off.png" width="500px" usemap="#image-map" style="z-index:0"/>
+<img id="base-ab" src="img/abundances_main.png" width="300px" style="position:absolute; LEFT:500px; TOP:0px;"/>
+
+<img src="img/bottomtext.png" width=800px STYLE="position:absolute; LEFT:0px; TOP:488px;">
+
+<map name="image-map">
+    <area coords="403,186,7" shape="circle" onmouseover="placeImage(true, 'halo_on', 0,0); placeImage(true, 'halo_ab_on', 500,0)" onmouseout="placeImage(false, 'halo_on'); placeImage(false, 'halo_ab_on')">
+    <area coords="353,258,7" shape="circle" onmouseover="placeImage(true, 'disk_on', 0,0); placeImage(true, 'disk_ab_on', 500,0)" onmouseout="placeImage(false, 'disk_on'); placeImage(false, 'disk_ab_on')">
+</map>
