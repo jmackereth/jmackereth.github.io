@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html>
+<head>
+
+<style type="text/css">
+    body  {
+        position: relative;
+   }
+    img.overimg {
+        position: absolute;
+        display: none;
+     }
+</style>
+
+<script type="text/javascript">
+function placeImage(disp, planet, x, y)
+{
+    var ele=document.getElementById(planet);
+    var base=document.getElementById('base');
+    var base_ab=document.getElementById('base-ab');
+    if (disp) {
+        ele.style.top = 150 + y + "px";
+        ele.style.left = x + "px";
+        ele.style.display='block';
+        base.style.display='none';
+        base_ab.style.display='none';
+    } else {
+        ele.style.display='none';
+        base.style.display='block';
+        base_ab.style.display='block';
+    }
+}
+function play_single_sound(tag) {
+    document.getElementById(tag).play();
+}
+function stop_single_sound(tag) {
+    document.getElementById(tag).pause();
+}
+</script>
+</head>
+<body>
+<img src="son-img/toptext.png" width="800px" STYLE="position:absolute; LEFT:0px; TOP:0px; display:inline">
+
+
+<audio id="clarinet" src="son-img/clarinet.wav" preload="auto"></audio>
+<audio id="saxophone" src="son-img/saxophone.wav" preload="auto"></audio>
+<audio id="ges" src="son-img/GES_l012_Dnu.wav" preload="auto"></audio>
+
+<img class="overimg" id="cla_on" src="son-img/images_spectra_cla_on.png" width="800px" usemap="#image-map"/>
+<img class="overimg" id="sax_on" src="son-img/images_spectra_sax_on.png" width="800px" usemap="#image-map"/>
+<img class="overimg" id="ges_on" src="son-img/images_spectra_ges_on.png" width="800px" usemap="#image-map"/>
+
+
+<img id="base" src="son-img/images_spectra.png" width="800px" usemap="#image-map" style="position:absolute; LEFT:0px; TOP:150px; z-index:0"/>
+<img id="base-ab" src="son-img/abundances_main.png" width="800px" STYLE="position:absolute; LEFT:500px; TOP:150px;"/>
+
+<img src="son-img/bottomtext.png" width="800px" STYLE="position:absolute; LEFT:0px; TOP:638px;">
+
+<map name="image-map">
+    <area coords="70,20,187,160"" shape="rect" onmouseover="placeImage(true, 'cla_on', 0,0); play_single_sound('clarinet')" onmouseout="placeImage(false, 'cla_on'); stop_single_sound('clarinet')">
+    <area coords="44,165,184,301" shape="rect" onmouseover="placeImage(true, 'sax_on', 0,0); play_single_sound('saxophone');" onmouseout="placeImage(false, 'sax_on'); stop_single_sound('saxophone')">
+    <area coords="57,337,199,467" shape="rect" onmouseover="placeImage(true, 'ges_on', 0,0); play_single_sound('ges')" onmouseout="placeImage(false, 'ges_on'); stop_single_sound('ges')">
+</map>
+
+
+</body>
