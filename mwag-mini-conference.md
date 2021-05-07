@@ -11,6 +11,8 @@ nav: small
 **Zoom info TBC - please register your interest using this form:**  
 [Registration Form](https://forms.gle/iWHQFqcfn7Z7pwRDA)
 
+[Add event to your Calendar](./assets/ics/mwagsymp1.ics)
+
 This is the first in a series of symposia organised by the SDSS IV Milky Way as a galaxy (MWAG) working group, and intended to promote science and discussion in and around the theme of understanding the context of the Milky Way within the broader realm of galaxy formation and evolution.
 
 The scope of these symposia is to bring MWAG science out of telecons and into a more widely accessible domain and to trigger new ideas and discussion. The format will be three science talks, ~20(+10) minutes in length, followed by a 30 minute structured discussion.
