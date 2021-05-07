@@ -9,7 +9,7 @@ nav: small
 
 ## 3rd June 2021 - 10:00-12:00 EDT
 **Zoom info TBC - please register your interest using this form:**  
-https://forms.gle/iWHQFqcfn7Z7pwRDA
+[Registration Form](https://forms.gle/iWHQFqcfn7Z7pwRDA)
 
 This is the first in a series of symposia organised by the SDSS IV Milky Way as a galaxy (MWAG) working group, and intended to promote science and discussion in and around the theme of understanding the context of the Milky Way within the broader realm of galaxy formation and evolution.
 
