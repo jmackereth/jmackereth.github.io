@@ -8,11 +8,12 @@ nav: small
 ## Bulges, bars and their influence on galaxies
 
 ## 3rd June 2021 - 10:00-12:00 EDT
-### Zoom info TBC - please register your interest [using this form](https://forms.gle/iWHQFqcfn7Z7pwRDA)
+**Zoom info TBC - please register your interest using this form:**  
+https://forms.gle/iWHQFqcfn7Z7pwRDA
 
 This is the first in a series of symposia organised by the SDSS IV Milky Way as a galaxy (MWAG) working group, and intended to promote science and discussion in and around the theme of understanding the context of the Milky Way within the broader realm of galaxy formation and evolution.
 
-The scope of these symposia is to bring MWAG science out of telecons and into a more widely accessible domain and to trigger new ideas and discussion. The format will be three science talks, ~20 minutes in length, followed by a 30 minute structured discussion.
+The scope of these symposia is to bring MWAG science out of telecons and into a more widely accessible domain and to trigger new ideas and discussion. The format will be three science talks, ~20(+10) minutes in length, followed by a 30 minute structured discussion.
 
 The first symposium will be focused towards understanding bars, bulges and their influence on galaxies as a whole. We have three invited speakers (click the dropdown for abstracts):
 
