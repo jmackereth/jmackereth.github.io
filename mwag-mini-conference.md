@@ -4,7 +4,7 @@ title: SDSS MWAG Symposium I
 nav: small
 ---
 
-# SDSS IV Milky Way as A Galaxy Symposium Series I
+# SDSS Milky Way as A Galaxy Symposium Series I
 ## Bulges, bars and their influence on galaxies
 
 ## 3rd June 2021 - 10:00-12:00 EDT
@@ -42,3 +42,5 @@ And indeed, Gaia DR2 has revealed seven different ridges, among them the "Hercul
 </details>
 
 *To be followed by a discussion and chaired jointly by Ted Mackereth and Nick Boardman, MWAG co-chairs*
+
+Please note that the symposium is intended for members of the SDSS IV and V collaboration and will have discussion focused on how the surveys within them can provide new insight on the problems. However, attendance by non-members is permissible with their agreement to commit to and abide by the [SDSS non-disclosure agreement](https://internal.sdss.org/meetings/ensenada2019/static/pdf/nonmember_attendance.pdf). Completion of the regsitration form and attendance will bind you to these terms.
