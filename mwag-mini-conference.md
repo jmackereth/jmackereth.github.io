@@ -41,4 +41,4 @@ And indeed, Gaia DR2 has revealed seven different ridges, among them the "Hercul
 (iii) ...present that, by including metallicities as tracers for the stars' birth location, we might be able to distinguish between different resonances.
 </details>
 
-*To be followed by a discussion and chaired joinly by Ted Mackereth and Nick Boardman, MWAG co-chairs*
+*To be followed by a discussion and chaired jointly by Ted Mackereth and Nick Boardman, MWAG co-chairs*
