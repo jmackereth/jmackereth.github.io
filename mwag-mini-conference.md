@@ -45,3 +45,5 @@ And indeed, Gaia DR2 has revealed seven different ridges, among them the "Hercul
 *To be followed by a discussion and chaired jointly by Ted Mackereth and Nick Boardman, MWAG co-chairs*
 
 Please note that the symposium is intended for members of the SDSS IV and V collaboration and will have discussion focused on how the surveys within them can provide new insight on the problems. However, attendance by non-members is permissible with their agreement to commit to and abide by the [SDSS non-disclosure agreement](https://internal.sdss.org/meetings/ensenada2019/static/pdf/nonmember_attendance.pdf). Completion of the regsitration form and attendance will bind you to these terms.
+
+All symposium attendees will be bound by the [SDSS Code of Conduct](https://www.sdss.org/collaboration/the-sloan-digital-sky-survey-code-of-conduct/).
