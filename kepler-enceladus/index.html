@@ -3,9 +3,14 @@
 <html>
 <head>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
 <style type="text/css">
     body  {
         position: relative;
+        font-family: 'Montserrat', sans-serif;
    }
     img.overimg {
         position: absolute;
@@ -34,20 +39,20 @@ function placeImage(disp, planet, x, y)
 </script>
 </head>
 <body>
-<img src="img/toptext.png" width="800px" STYLE="position:absolute; LEFT:0px; TOP:0px; display:inline">
+<img src="img/toptext.svg" width="800px" STYLE="position:absolute; LEFT:0px; TOP:0px; display:inline">
 
-<img class="overimg" id="halo_on" src="img/orbits_halo_on_new.png" width="500px" usemap="#image-map"/>
-<img class="overimg" id="disk_on" src="img/orbits_disk_on_new.png" width="500px" usemap="#image-map"/>
+<img class="overimg" id="halo_on" src="img/orbits_halo_on_new.svg" width="500px" usemap="#image-map"/>
+<img class="overimg" id="disk_on" src="img/orbits_disk_on_new.svg" width="500px" usemap="#image-map"/>
 
-<img class="overimg" id="halo_ab_on" src="img/abundances_halo_on.png" width="300px" usemap="#image-map"/>
-<img class="overimg" id="disk_ab_on" src="img/abundances_disk_on.png" width="300px" usemap="#image-map"/>
+<img class="overimg" id="halo_ab_on" src="img/abundances_halo_on.svg" width="300px" usemap="#image-map"/>
+<img class="overimg" id="disk_ab_on" src="img/abundances_disk_on.svg" width="300px" usemap="#image-map"/>
 
-<img id="galback", src="img/draftgalaxy_back.png" width="500px" STYLE="position:absolute; LEFT:0px; TOP:150px; z-index:-10;"/>
+<img id="galback", src="img/draftgalaxy_back.svg" width="500px" STYLE="position:absolute; LEFT:0px; TOP:150px; z-index:-10;"/>
 
-<img id="base" src="img/orbits_all_off_new.png" width="500px" usemap="#image-map" style="position:absolute; LEFT:0px; TOP:150px; z-index:0"/>
-<img id="base-ab" src="img/abundances_main.png" width="300px" STYLE="position:absolute; LEFT:500px; TOP:150px;"/>
+<img id="base" src="img/orbits_all_off_new.svg" width="500px" usemap="#image-map" style="position:absolute; LEFT:0px; TOP:150px; z-index:0"/>
+<img id="base-ab" src="img/abundances_main.svg" width="300px" STYLE="position:absolute; LEFT:500px; TOP:150px;"/>
 
-<img src="img/bottomtext.png" width="800px" STYLE="position:absolute; LEFT:0px; TOP:638px;">
+<img src="img/bottomtext.svg" width="800px" STYLE="position:absolute; LEFT:0px; TOP:638px;">
 
 <map name="image-map">
     <area coords="52,313,159,355"" shape="rect" onmouseover="placeImage(true, 'halo_on', 0,0); placeImage(true, 'halo_ab_on', 500,0)" onmouseout="placeImage(false, 'halo_on'); placeImage(false, 'halo_ab_on')">
