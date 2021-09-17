@@ -1,4 +1,22 @@
 [ {
+  "title": "The stellar age revolution with asteroseismology, spectroscopy and machine learning",
+  "type": "Invited Talk (Remote)",
+  "event": "AAS 238 Meeting-in-a-Meeting: Machine Learning in Astronomy",
+  "location": "Virtual"
+},
+{
+  "title": "A 'genetic' approach to constraining the assembly of the Milky Way",
+  "type": "Invited Seminar (Remote)",
+  "event": "CITA Seminar",
+  "location": "CITA, University of Toronto, Canada"
+},
+    {
+  "title": "A 'genetic' approach to constraining the assembly of the Milky Way",
+  "type": "Invited Seminar (Remote)",
+  "event": "Friday Scientific Lunch Talk",
+  "location": "NOIRLab, University of Arizona, USA"
+},
+    {
     "title": "Linking insights into the disc, bulge and halo for a holistic approach to constraining the assembly of the Milky Way",
     "type": "Invited Seminar (Remote)",
     "event": "High-energy Astrophysics Seminar",
@@ -47,9 +65,9 @@
         "location": "Seoul, South Korea"
     },
     {
-        "title": "The origin ofdiverse α-element enrichment in galaxy discs",
-        "type": "Invited Lunch Talk",
-        "event": "",
+        "title": "The origin of diverse α-element enrichment in galaxy discs",
+        "type": "Invited Seminar",
+        "event": "Friday Lunch Astrophysics Talks",
         "location": "Institute for Computational Cosmology, Durham, UK"
     },
     {
@@ -63,11 +81,5 @@
         "type": "Contributed Talk",
         "event": "Hello, goodbye: understanding the duality of the Milky Way",
         "location": "EWASS 2018, Liverpool, UK"
-    },
-    {
-        "title": "Galactic Archaeology with mono-age stellar populations",
-        "type": "Invited Seminar",
-        "event": "",
-        "location": "University of Birmingham, UK"
     }
 ]
