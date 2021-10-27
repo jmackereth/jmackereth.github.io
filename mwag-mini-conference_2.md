@@ -9,7 +9,7 @@ nav: small
 # SDSS Milky Way as a Galaxy Symposium Series
 ## Symposium II: Radial migration in disk galaxies
 
-## 27th Oct 2021 - 14:00-17:00 EDT
+## 10th Nov 2021 - 14:00-17:00 EDT
 **Zoom info TBC - please register your interest using this form:**
 [Registration Form](https://docs.google.com/forms/d/e/1FAIpQLSc49tbvAezA9qQ6kJsqj9UdVq_CYSRAMmXqpSAI_FHfdvjqcQ/viewform)
 
