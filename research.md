@@ -3,8 +3,10 @@ layout: default
 title: Research
 nav: small
 ---
+> _The following is an incomplete and sorely out of date account of research that I did during my career as an Astrophysicist. In due course, I intend to update it with some more about my old research, as well as details of the work I am doing in industry, and anything in-between!_
 
-# The Structure, Kinematics and Dynamics of the Milky Way
+
+### The Structure, Kinematics and Dynamics of the Milky Way
 
 <h4> <i> <a href="https://arxiv.org/abs/1706.00018"> The age-metallicity structure of the Milky Way disc using APOGEE </a> </i> </h4>
 <p> I lead a paper in 2017 in which we measured the structure of the Milky Way disc's stars as
@@ -21,7 +23,7 @@ An open access version of the paper is available  <a href="https://arxiv.org/abs
 <p> In another recent paper, using the <i>Gaia</i> DR2 dataset in conjunction with APOGEE, I fit models for the kinematics of mono-age, mono-metallicity populations in the Milky Way disc. For that paper, I developed a new catalogue of ages for stars in APOGEE which uses a neural network model from the <a href="https://astronn.readthedocs.io/en/latest/">astroNN</a> python package to estimate ages from the stellar spectra, trained on ages measured using asteroseismology, from the APOKASC-2 (APOGEE-<i>Kepler</i>) catalogue. Among many other interesting findings, we discovered that the history of dynamical heating of the high and low [&alpha;/Fe] populations (as mentioned above) appears to show that they really were formed and evolved completely differently. You can read the paper  <a href="https://arxiv.org/abs/1901.04502">here</a>, and see the code <a href="https://github.com/jmackereth/monoage-velocity-dispersion">here</a>. A summary page for that paper, including descriptions of the age catalogue which is made available there, can be found at <a href="dynamical-heating.html">this link</a>
 </p>
 
-# Simulating Galaxy Formation
+### Simulating Galaxy Formation
 
 <h4> <i> <a href="https://arxiv.org/abs/1801.03593"> The origin of diverse &alpha;-element enrichment in galaxy discs </a> </i> </h4>
 <p> I am interested in the use of large volume cosmological simulations to help understand the
